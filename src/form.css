@@ -1,0 +1,31 @@
+input, button, select, optgroup, textarea {
+  margin: 9px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 35px;
+  border-radius: 6px;
+  /* border-color: rgba(0, 0, 0, 0.15); */
+  border-style: none;
+  width:400px;
+}
+
+
+input[type="text"] {
+ padding: 4px;
+}
+
+
+input[type="email"] {
+  padding: 4px;
+ }
+
+select {
+  padding: 4px;
+ }
+
+
+form {
+  background: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 4rem;
+}

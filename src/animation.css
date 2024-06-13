@@ -1,0 +1,38 @@
+
+/* Animation.css */
+
+
+.container-animation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+.title {
+
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  letter-spacing: 6px;
+
+  font-size: 36px;
+  font-weight: bold;
+  color: #fffcfc !important;
+}
+
+.lead {
+  opacity: 1;
+  transition: opacity 0.1s ease-in-out;
+
+  font-size: 36px;
+
+
+}
+
+
+
+.hidden {
+  opacity: 0;
+}
+
+
