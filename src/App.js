@@ -6,6 +6,7 @@ import AboutMe from './aboutme';
 import result from './result.svg';
 import Animation from './animation';
 import Navbar from './navbar.js';
+import AboutUs from './about-us';
 
 function App() {
   return (
@@ -31,9 +32,9 @@ function App() {
       <Animation />
 
       <AboutMe />
+      <AboutUs />
       <ContactUs />
-
-    </div>
+          </div>
   );
 }
 

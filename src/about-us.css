@@ -1,0 +1,70 @@
+.card2, .card1 {
+  box-sizing: border-box;
+  border-width: 1px;
+  border-style: solid;
+  height: 30vh;
+  border-radius: 15px;
+  justify-content: center;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  transition: opacity 0.9s ease-in-out;
+
+}
+
+.card2:hover {
+  background-color: rgb(23, 37, 55);
+  color: white;
+}
+
+
+.hidden {
+  opacity: 0;
+}
+.card2 {
+  width: 50vw;
+  background: white;
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.card1 {
+  width: 30vw;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+@media (max-width: 768px) {
+  .card2, .card1 {
+    width: 100%;
+  }
+
+  .container {
+    gap: 3vw;
+    flex-wrap: wrap;
+  }
+  .card2 {
+    font-size: 14px;
+    width: 50vw;
+    height: 50vh;
+  }
+
+  .card1 {
+    font-size: 14px;
+    width: 50vw;
+    height: 50vh;
+  }
+
+}
+
+.about {
+  gap: 4vw;
+  background-color: rgb(23, 37, 55);
+  color: white;
+}
+
+.container {
+  gap: 3vw;
+}

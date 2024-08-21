@@ -6,7 +6,7 @@ const ContactUs = () => {
 
   return (
   <div className="vh-100 d-flex justify-content-center align-items-center cover-container justify-content-center" id="form">
-  <form className="container d-flex flex-column align-items-center" action="https://getform.io/f/raeqpjna" method="POST" encType="multipart/form-data">
+  <form className="container d-flex flex-column align-items-center no-gap" action="https://getform.io/f/raeqpjna" method="POST" encType="multipart/form-data">
     <h3 className="text-white mb-4">Find out more</h3>
     <div className="mb-3 col-md-8">
       <input type="text" className="form-control" name="user_name" placeholder='Name' />
@@ -16,10 +16,11 @@ const ContactUs = () => {
     </div>
     <div className="mb-3 col-md-8">
       <label htmlFor="job" className='text-white'>Choose your working area:</label>
-      <select className="form-select" name="job" id="job" placeholder="Choose your working area">
+      <select className="form-select" name="job" id="job" placeholder="Choose area">
         <option value="Nursing">Nursing</option>
         <option value="Medicine">Medicine</option>
         <option value="Engineering">Engineering</option>
+        <option value="others">Others</option>
       </select>
     </div>
     <div className="mb-3 col-md-8">
