@@ -41,9 +41,23 @@ ul, li {
 
 .nav-item {
   font-size: .875rem;
-  white-space: nowrap;}
+  white-space: nowrap;
+  list-style-type: none;
+}
 
+
+.nav-item, *::before, *::after {
+  color: #d85120 !important
+}
 
 ul {
   margin-top: 10px;
     }
+
+@media (max-width: 720px) {
+
+.header-wrapper {
+  width: 100vw;
+}
+
+}

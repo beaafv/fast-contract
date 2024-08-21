@@ -2,3 +2,15 @@
 .img-fluid {
   width: 200px;
 }
+
+
+@media (max-width: 720px) {
+
+#process {
+  font-size: 22px !important;
+}
+
+.container-animation {
+  height: 80vh !important;
+}
+}

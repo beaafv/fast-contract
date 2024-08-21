@@ -13,21 +13,21 @@ function AboutMe(){
         <div className="container-1 container">
           <div className="aboutMe-text mb-4">
             <div className='row justify-content-evenly mt-4'>
-              <div className='col-lg-4 col-md-4 col-sm-12'>
+              <div className='col-lg-4 col-md-4 col-sm-12 mb-2'>
                 <img src={hiring} alt="hiring" className="img-fluid" />
                 <p className='text-white'>Send us your CV in the contact form page</p>
               </div>
-              <div className='col-lg-4 col-md-4 col-sm-12'>
+              <div className='col-lg-4 col-md-4 col-sm-12 mb-2'>
                 <img src={interview} alt="interview" className="img-fluid" />
                 <p className='text-white'>Interview with a member of the team</p>
               </div>
-              <div className='col-lg-4 col-md-4 col-sm-12'>
+              <div className='col-lg-4 col-md-4 col-sm-12 mb-2'>
                 <img src={cv} alt="cv" className="img-fluid" />
-                <p className='text-white'>Contract lorem ipsum</p>
+                <p className='text-white'>If selected we will present you  a contract</p>
               </div>
             </div>
           </div>
-          <a href="#" className="btn btn-lg btn-secondary mt-4">Get Started</a>
+          <a href="#form" className="btn btn-lg btn-secondary mt-4">Get Started</a>
         </div>
       </div>
     );
