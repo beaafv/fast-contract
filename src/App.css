@@ -58,8 +58,6 @@ h1 {
 }
 
 
-
-
 .cover-container {
   background-color: rgb(23, 37, 56);
 }
@@ -74,25 +72,10 @@ svg {
   width: 60vw;
 }
 #wrapper{
-    overflow: hidden;
+  overflow: hidden;
   background-color: #1a1b29;
-/*   display: flex; */
-/*   justify-content: stretch; */
-/*   align-items: stretch; */
-/*   flex-direction: column; */
-/*   min-height: 400px; */
 }
-/* #wrapper > div {
-  flex: 0 0 0px;
-  border: 1px solid purple;
 
-} */
 svg{
   padding-left: 40%;
-
-/*   width: 100vw; */
-/*   padding-left: 50px; */
-/*   display: block; */
-/*   margin: 0 auto; */
-/*   border: 1px solid red; */
 }
