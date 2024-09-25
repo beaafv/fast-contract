@@ -33,3 +33,9 @@ form {
 .no-gap {
   gap: 1vw !important;
 }
+
+
+.dropdown-menu.show {
+  background-color: transparent;
+  border: none;
+}
