@@ -6,7 +6,7 @@ const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
   return (
-    <li className='nav-item dropdown' >
+    <div className='nav-item dropdown' >
       <a className="nav-link dropdown-toggle" href="#" role="button" data-toggle='dropdown' aria-expanded="false">
       En
       </a>
@@ -22,7 +22,7 @@ const LanguageSwitcher = () => {
           </a>
         </li>
       </ul>
-    </li>
+    </div>
   );
 };
 

@@ -3,11 +3,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import logo from './logo-fast.jpeg';
 import ContactUs from './contact';
 import AboutMe from './aboutme';
-import result from './result.svg';
 import Animation from './animation';
 import Navbar from './navbar.js';
 import AboutUs from './about-us';
-import LanguageSwitcher from './language';
 
 function App() {
   return (
