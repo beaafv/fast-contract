@@ -5,12 +5,12 @@ import { useTranslation } from 'react-i18next';
 
 const Animation = () => {
   const [isVisible, setIsVisible] = useState(true);
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      if (scrollPosition > 120) { // Adjust the threshold as needed
+      if (scrollPosition > 120) { 
         setIsVisible(false);
       } else {
         setIsVisible(true);
